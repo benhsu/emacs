@@ -1,0 +1,162 @@
+;; Object analysis/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "analysis/"
+  :tables (list 
+   (semanticdb-table "SnowballPorterFilterFactory.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("org.apache.solr.analysis" package nil nil [804 837])
+            ("java.util.Map" include nil nil [839 860])
+            ("java.util.List" include nil nil [861 883])
+            ("java.io.File" include nil nil [884 904])
+            ("java.io.IOException" include nil nil [905 932])
+            ("org.apache.lucene.analysis.TokenStream" include nil nil [934 980])
+            ("org.apache.lucene.analysis.CharArraySet" include nil nil [981 1028])
+            ("org.apache.lucene.analysis.TokenFilter" include nil nil [1029 1075])
+            ("org.apache.lucene.analysis.Token" include nil nil [1076 1116])
+            ("org.apache.lucene.analysis.tokenattributes.TermAttribute" include nil nil [1117 1181])
+            ("org.apache.lucene.analysis.snowball.SnowballFilter" include nil nil [1182 1240])
+            ("org.apache.solr.common.ResourceLoader" include nil nil [1241 1286])
+            ("org.apache.solr.common.util.StrUtils" include nil nil [1287 1331])
+            ("org.apache.solr.util.plugin.ResourceLoaderAware" include nil nil [1332 1387])
+            ("org.tartarus.snowball.SnowballProgram" include nil nil [1388 1433])
+            ("SnowballPorterFilterFactory" type
+               (:typemodifiers ("public")
+                :interfaces ("ResourceLoaderAware")
+                :superclasses "BaseTokenFilterFactory"
+                :members 
+                  ( ("PROTECTED_TOKENS" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1862 1920])
+                    ("language" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1924 1960])
+                    ("stemClass" variable
+                       (:typemodifiers ("private")
+                        :type "Class")
+                        (reparse-symbol class_member_declaration) [1963 1987])
+                    ("inform" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("loader" variable (:type "ResourceLoader") (reparse-symbol formal_parameters) [2011 2032]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1992 2926])
+                    ("protectedWords" variable
+                       (:typemodifiers ("private")
+                        :type "CharArraySet")
+                        (reparse-symbol class_member_declaration) [2930 2973])
+                    ("init" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2989 3396])
+                    ("create" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("input" variable (:type "TokenStream") (reparse-symbol formal_parameters) [3437 3454]))                          
+                        :type "SnowballPorterFilter")
+                        (reparse-symbol class_member_declaration) [3402 3781]))                  
+                :type "class")
+                nil [1755 3783])
+            ("SnowballPorterFilter" type
+               (:superclasses "TokenFilter"
+                :members 
+                  ( ("protWords" variable
+                       (:typemodifiers ("private" "final")
+                        :type "CharArraySet")
+                        (reparse-symbol class_member_declaration) [3837 3874])
+                    ("stemmer" variable
+                       (:typemodifiers ("private" "final")
+                        :type "SnowballProgram")
+                        (reparse-symbol class_member_declaration) [3877 3915])
+                    ("termAtt" variable
+                       (:typemodifiers ("private" "final")
+                        :type "TermAttribute")
+                        (reparse-symbol class_member_declaration) [3918 3954])
+                    ("SnowballPorterFilter" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("source" variable (:type "TokenStream") (reparse-symbol formal_parameters) [3986 4004])
+                            ("stemmer" variable (:type "SnowballProgram") (reparse-symbol formal_parameters) [4006 4029])
+                            ("protWords" variable (:type "CharArraySet") (reparse-symbol formal_parameters) [4031 4053]))                          )
+                        (reparse-symbol class_member_declaration) [3958 4208])
+                    ("incrementToken" function
+                       (:throws ("IOException")
+                        :typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [4224 4830]))                  
+                :type "class")
+                nil [3786 4832]))          
+    :file "SnowballPorterFilterFactory.java"
+    :pointmax 4833
+    :fsize 4832
+    :lastmodtime '(20087 36665)
+    :unmatched-syntax '((GT 3024 . 3025) (COMMA 3016 . 3017) (IDENTIFIER 3006 . 3009) (LT 3009 . 3010))
+    )
+   (semanticdb-table "EnglishPorterFilterFactory.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("org.apache.solr.analysis" package nil nil [805 838])
+            ("org.apache.lucene.analysis.CharArraySet" include nil nil [840 887])
+            ("org.apache.lucene.analysis.Token" include nil nil [888 928])
+            ("org.apache.lucene.analysis.TokenFilter" include nil nil [929 975])
+            ("org.apache.lucene.analysis.TokenStream" include nil nil [976 1022])
+            ("org.apache.solr.common.ResourceLoader" include nil nil [1023 1068])
+            ("org.apache.solr.common.util.StrUtils" include nil nil [1069 1113])
+            ("org.apache.solr.util.plugin.ResourceLoaderAware" include nil nil [1114 1169])
+            ("org.tartarus.snowball.SnowballProgram" include nil nil [1170 1215])
+            ("java.io.IOException" include nil nil [1217 1244])
+            ("java.io.File" include nil nil [1245 1265])
+            ("java.util.List" include nil nil [1266 1288])
+            ("EnglishPorterFilterFactory" type
+               (:typemodifiers ("public")
+                :interfaces ("ResourceLoaderAware")
+                :superclasses "BaseTokenFilterFactory"
+                :members 
+                  ( ("PROTECTED_TOKENS" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1571 1629])
+                    ("inform" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("loader" variable (:type "ResourceLoader") (reparse-symbol formal_parameters) [1652 1673]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1633 2567])
+                    ("protectedWords" variable
+                       (:typemodifiers ("private")
+                        :type "CharArraySet")
+                        (reparse-symbol class_member_declaration) [2571 2614])
+                    ("create" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("input" variable (:type "TokenStream") (reparse-symbol formal_parameters) [2652 2669]))                          
+                        :type "EnglishPorterFilter")
+                        (reparse-symbol class_member_declaration) [2618 2735]))                  
+                :type "class")
+                nil [1465 2738])
+            ("EnglishPorterFilter" type
+               (:superclasses "SnowballPorterFilter"
+                :members 
+                  ( ("EnglishPorterFilter" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("source" variable (:type "TokenStream") (reparse-symbol formal_parameters) [2950 2968])
+                            ("protWords" variable (:type "CharArraySet") (reparse-symbol formal_parameters) [2970 2992]))                          )
+                        (reparse-symbol class_member_declaration) [2923 3077]))                  
+                :type "class")
+                nil [2864 3079]))          
+    :file "EnglishPorterFilterFactory.java"
+    :pointmax 3080
+    :fsize 3079
+    :lastmodtime '(20087 36665)
+    :unmatched-syntax '((IDENTIFIER 2852 . 2863))
+    )
+   )
+  :file "!home!benhsu!workspace!solr_war!trunk!src!java!org!apache!solr!analysis!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

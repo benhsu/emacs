@@ -1,0 +1,40 @@
+;; Object outgoingalerts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "outgoingalerts/"
+  :tables (list 
+   (semanticdb-table "realtime.ftl"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Realtime Alert for ${alert.name}" section (:members 
+              ( ("Realtime Alert for ${alert.name}" section (:members 
+                  ( ("View WordPlay" anchor nil nil [1787 1790])
+                    ("${clip.title}<br/>" section (:members 
+                      ( ("Click here" anchor nil nil [3128 3131])
+                        ("www.criticalmention.com" anchor nil nil [3227 3230]))                      ) nil [2036 3331]))                  ) nil [1246 3331]))              ) nil [886 3331]))          
+    :file "realtime.ftl"
+    :pointmax 3331
+    :fsize 3330
+    :lastmodtime '(20276 12664)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "digest.ftl"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Daily Digest for: ${alert.name}" section (:members 
+              ( ("Daily Digest for: ${alert.name}" section (:members 
+                  ( ("${formattedTime}" section (:members 
+                      ( ("View WordPlay" anchor nil nil [1854 1857]))                      ) nil [1326 2103])
+                    ("${clip.title}<br/>" section (:members 
+                      ( ("Click here" anchor nil nil [3369 3372])
+                        ("www.criticalmention.com" anchor nil nil [3468 3471]))                      ) nil [2103 3572]))                  ) nil [1246 3572]))              ) nil [886 3572]))          
+    :file "digest.ftl"
+    :pointmax 3572
+    :fsize 3571
+    :lastmodtime '(20276 12664)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!benhsu!workspace!alerter_v2!trunk!target!classes!com!criticalmention!outgoingalerts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

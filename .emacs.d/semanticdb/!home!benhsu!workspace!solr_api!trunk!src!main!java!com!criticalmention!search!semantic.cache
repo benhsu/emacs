@@ -1,0 +1,121 @@
+;; Object search/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "search/"
+  :tables (list 
+   (semanticdb-table "SearchService.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("com.criticalmention.search" package nil nil [1 36])
+            ("java.io.BufferedReader" include nil nil [39 69])
+            ("java.io.IOException" include nil nil [70 97])
+            ("java.io.InputStreamReader" include nil nil [98 131])
+            ("java.util.Date" include nil nil [132 154])
+            ("java.util.HashSet" include nil nil [155 180])
+            ("java.util.Iterator" include nil nil [181 207])
+            ("java.util.LinkedList" include nil nil [208 236])
+            ("java.util.List" include nil nil [237 259])
+            ("java.util.Random" include nil nil [260 284])
+            ("java.util.Set" include nil nil [285 306])
+            ("java.util.regex.Matcher" include nil nil [307 338])
+            ("java.util.regex.Pattern" include nil nil [339 370])
+            ("nu.xom.Builder" include nil nil [372 394])
+            ("nu.xom.Document" include nil nil [395 418])
+            ("nu.xom.Nodes" include nil nil [419 439])
+            ("nu.xom.ParsingException" include nil nil [440 471])
+            ("nu.xom.ValidityException" include nil nil [472 504])
+            ("org.apache.commons.httpclient.HttpClient" include nil nil [506 554])
+            ("org.apache.commons.httpclient.HttpException" include nil nil [555 606])
+            ("org.apache.commons.httpclient.HttpStatus" include nil nil [607 655])
+            ("org.apache.commons.httpclient.methods.GetMethod" include nil nil [656 711])
+            ("org.apache.commons.httpclient.methods.PostMethod" include nil nil [712 768])
+            ("org.apache.log4j.Logger" include nil nil [769 800])
+            ("org.apache.solr.client.solrj.SolrQuery" include nil nil [801 847])
+            ("org.apache.solr.client.solrj.SolrRequest" include nil nil [848 896])
+            ("org.apache.solr.client.solrj.SolrServer" include nil nil [897 944])
+            ("org.apache.solr.client.solrj.SolrServerException" include nil nil [945 1001])
+            ("org.apache.solr.client.solrj.impl.CommonsHttpSolrServer" include nil nil [1002 1065])
+            ("org.apache.solr.client.solrj.request.QueryRequest" include nil nil [1066 1123])
+            ("org.apache.solr.client.solrj.response.QueryResponse" include nil nil [1124 1183])
+            ("org.apache.solr.common.SolrDocument" include nil nil [1184 1227])
+            ("org.apache.solr.common.SolrException" include nil nil [1228 1272])
+            ("org.joda.time.DateTime" include nil nil [1273 1303])
+            ("org.joda.time.Interval" include nil nil [1304 1334])
+            ("org.joda.time.format.DateTimeFormat" include nil nil [1335 1378])
+            ("org.joda.time.format.DateTimeFormatter" include nil nil [1379 1425])
+            ("com.criticalmention.config.SolrApiConfig" include nil nil [1427 1475])
+            ("com.criticalmention.model.ClipPojo" include nil nil [1476 1518])
+            ("com.google.common.base.Joiner" include nil nil [1519 1556])
+            ("com.google.common.collect.Lists" include nil nil [1557 1596])
+            ("com.google.common.collect.Sets" include nil nil [1597 1635])
+            ("SearchService" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("instance" variable
+                       (:typemodifiers ("private" "static" "volatile")
+                        :type "SearchService")
+                        (reparse-symbol class_member_declaration) [1786 1833])
+                    ("maxResults" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2235 2258])
+                    ("logger" variable
+                       (:typemodifiers ("private")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [2285 2347])
+                    ("SearchService" function
+                       (:constructor-flag t
+                        :throws ("IOException" "ValidityException" "ParsingException")
+                        :typemodifiers ("private"))
+                        (reparse-symbol class_member_declaration) [2557 2665])
+                    ("configure" function
+                       (:throws ("IOException" "ValidityException" "ParsingException")
+                        :typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2931 5114])
+                    ("executeQuery" function
+                       (:constructor-flag t
+                        :throws ("SolrServerException" "HttpException" "IOException")
+                        :arguments 
+                          ( ("params" variable (:type "SearchParams") (reparse-symbol formal_parameters) [5457 5476]))                          )
+                        (reparse-symbol class_member_declaration) [5444 14293])
+                    ("asNonEmptyString" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("o" variable (:type "Object") (reparse-symbol formal_parameters) [14440 14448]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [14408 14541])
+                    ("asNonEmptyInt" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("o" variable (:type "Object") (reparse-symbol formal_parameters) [14573 14581]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [14547 14784])
+                    ("asNonEmptyFloat" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("o" variable (:type "Object") (reparse-symbol formal_parameters) [14826 14834]))                          
+                        :type "float")
+                        (reparse-symbol class_member_declaration) [14790 15169])
+                    ("getInstance" function
+                       (:throws ("IOException" "ValidityException" "ParsingException")
+                        :typemodifiers ("public" "static")
+                        :type "SearchService")
+                        (reparse-symbol class_member_declaration) [15175 15390])
+                    ("refresh" function
+                       (:throws ("ValidityException" "IOException" "ParsingException")
+                        :typemodifiers ("public" "static")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [15579 15769]))                  
+                :type "class")
+                nil [1698 15771]))          
+    :file "SearchService.java"
+    :pointmax 15772
+    :fsize 15769
+    :lastmodtime '(20272 4921)
+    :unmatched-syntax '((GT 5442 . 5443) (PUBLIC 5422 . 5428) (LT 5433 . 5434) (SEMICOLON 2188 . 2189) (PAREN_BLOCK 2186 . 2188) (GT 2185 . 2186) (LT 2178 . 2179) (NEW 2164 . 2167) (EQ 2162 . 2163) (GT 2153 . 2154) (LT 2146 . 2147) (SEMICOLON 1931 . 1932) (GT 1918 . 1919) (PRIVATE 1895 . 1902) (LT 1907 . 1908))
+    )
+   )
+  :file "!home!benhsu!workspace!solr_api!trunk!src!main!java!com!criticalmention!search!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

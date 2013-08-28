@@ -1,0 +1,41 @@
+;; Object search/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "search/"
+  :tables (list 
+   (semanticdb-table "SearchParamPreparer.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("com.criticalmention.search" package nil nil [1 36])
+            ("java.util.Collections" include nil nil [38 67])
+            ("java.util.Date" include nil nil [68 90])
+            ("java.util.List" include nil nil [91 113])
+            ("org.apache.log4j.Logger" include nil nil [115 146])
+            ("org.apache.lucene.analysis.WhitespaceAnalyzer" include nil nil [147 200])
+            ("org.apache.lucene.index.Term" include nil nil [201 237])
+            ("org.apache.lucene.queryParser.ParseException" include nil nil [238 290])
+            ("org.apache.lucene.queryParser.QueryParser" include nil nil [291 340])
+            ("org.apache.lucene.search.BooleanClause" include nil nil [341 387])
+            ("org.apache.lucene.search.BooleanClause.Occur" include nil nil [388 440])
+            ("org.apache.lucene.search.BooleanQuery" include nil nil [441 486])
+            ("org.apache.lucene.search.Query" include nil nil [487 525])
+            ("org.apache.lucene.search.TermQuery" include nil nil [526 568])
+            ("org.apache.lucene.search.TermRangeQuery" include nil nil [569 616])
+            ("org.apache.lucene.util.Version" include nil nil [617 655])
+            ("org.joda.time.DateTime" include nil nil [656 686])
+            ("org.joda.time.DateTimeZone" include nil nil [687 721])
+            ("com.criticalmention.model.ContractPojo" include nil nil [723 769])
+            ("com.google.common.base.Predicate" include nil nil [770 810])
+            ("com.google.common.base.Strings" include nil nil [811 849])
+            ("com.google.common.collect.Collections2" include nil nil [850 896])
+            ("com.google.common.collect.Lists" include nil nil [897 936]))          
+    :file "SearchParamPreparer.java"
+    :pointmax 16995
+    :fsize 16994
+    :lastmodtime '(20218 6774)
+    :unmatched-syntax '((BRACE_BLOCK 1178 . 16994) (GT 1176 . 1177) (IDENTIFIER 1175 . 1176) (PUBLIC 1133 . 1139) (LT 1174 . 1175))
+    )
+   )
+  :file "!home!benhsu!workspace!solr_api!tags!solrApi-0.23.2.PATCH!src!main!java!com!criticalmention!search!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

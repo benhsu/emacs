@@ -1,0 +1,97 @@
+;; Object request/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "request/"
+  :tables (list 
+   (semanticdb-table "SolrQueryRequest.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("org.apache.solr.request" package nil nil [805 837])
+            ("org.apache.solr.search.SolrIndexSearcher" include nil nil [839 887])
+            ("org.apache.solr.schema.IndexSchema" include nil nil [888 930])
+            ("org.apache.solr.common.params.CommonParams" include nil nil [931 981])
+            ("org.apache.solr.common.params.SolrParams" include nil nil [992 1040])
+            ("org.apache.solr.common.util.ContentStream" include nil nil [1041 1090])
+            ("org.apache.solr.core.SolrCore" include nil nil [1091 1128])
+            ("java.util.Map" include nil nil [1130 1151])
+            ("SolrQueryRequest" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("getParams" function
+                       (:typemodifiers ("public")
+                        :type "SolrParams")
+                        (reparse-symbol interface_member_declaration) [1442 1472])
+                    ("setParams" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("params" variable (:type "SolrParams") (reparse-symbol formal_parameters) [1634 1651]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [1612 1653])
+                    ("getOriginalParams" function
+                       (:typemodifiers ("public")
+                        :type "SolrParams")
+                        (reparse-symbol interface_member_declaration) [1929 1967])
+                    ("close" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [2242 2262])
+                    ("getParam" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [2536 2547]))                          
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [2513 2549])
+                    ("getParams" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [2793 2804]))                          
+                        :type "String[]")
+                        (reparse-symbol interface_member_declaration) [2767 2806])
+                    ("getQueryString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [2977 3008])
+                    ("getQueryType" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [3207 3236])
+                    ("getStart" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [3397 3419])
+                    ("getLimit" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [3569 3591])
+                    ("getStartTime" function
+                       (:typemodifiers ("public")
+                        :type "long")
+                        (reparse-symbol interface_member_declaration) [3651 3678])
+                    ("getSearcher" function
+                       (:typemodifiers ("public")
+                        :type "SolrIndexSearcher")
+                        (reparse-symbol interface_member_declaration) [3739 3778])
+                    ("getCore" function
+                       (:typemodifiers ("public")
+                        :type "SolrCore")
+                        (reparse-symbol interface_member_declaration) [3853 3879])
+                    ("getSchema" function
+                       (:typemodifiers ("public")
+                        :type "IndexSchema")
+                        (reparse-symbol interface_member_declaration) [3938 3969])
+                    ("getParamString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [4077 4108]))                  
+                :type "interface")
+                nil [1355 4213]))          
+    :file "SolrQueryRequest.java"
+    :pointmax 4218
+    :fsize 4217
+    :lastmodtime '(19782 45756)
+    :unmatched-syntax '((SEMICOLON 2110 . 2111) (PAREN_BLOCK 2108 . 2110) (GT 2096 . 2097) (COMMA 2089 . 2090) (PUBLIC 2072 . 2078) (LT 2082 . 2083) (SEMICOLON 1774 . 1775) (PAREN_BLOCK 1772 . 1774) (GT 1753 . 1754) (PUBLIC 1724 . 1730) (LT 1739 . 1740))
+    )
+   )
+  :file "!home!benhsu!eval_solr_upgrade!apache-solr-3.5.0!solr!core!src!java!org!apache!solr!request!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

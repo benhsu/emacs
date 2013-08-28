@@ -1,0 +1,162 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("vcl.py_devbox"
+ (filename . "/ssh:bhsu@benhsu-dev.mcdc:/home/bhsu/cm_search/solr_timeshard/vcl.py")
+ (front-context-string . "\"\\t{ .backend = ")
+ (rear-context-string . "j+1))\n		print(\"\"")
+ (position . 1016))
+("cm_search_solr_devbox"
+ (filename . "/ssh:bhsu@benhsu-dev.mcdc:/home/bhsu/cm_search_solr/")
+ (front-context-string . ".git\n  -rw-rw-r-")
+ (rear-context-string . "96 Jul 29 22:08 ")
+ (position . 207))
+("cm_email_alert_devbox"
+ (filename . "/ssh:bhsu@benhsu-dev.mcdc:/home/bhsu/cm_email_alert/")
+ (front-context-string . ".git\n  -rw-rw-r-")
+ (rear-context-string . "96 Jun 24 19:48 ")
+ (position . 204))
+("puppet_devbox"
+ (filename . "/sudo:root@10.10.0.247:/opt/puppet/")
+ (front-context-string . ".git\n  -rw-rw-r-")
+ (rear-context-string . "96 Jun 25 21:06 ")
+ (position . 190))
+("email_alert_puppet_devbox"
+ (filename . "/sudo:root@emailalert97.mcdc:/opt/puppet/modules/email_alert/manifests/init.pp")
+ (front-context-string . "class email_aler")
+ (rear-context-string)
+ (position . 1))
+("email_sender_devbox"
+ (filename . "/ssh:bhsu@emailalert97.mcdc:/home/bhsu/cm_email_alert/bin/email_sender.py")
+ (front-context-string . "#!/usr/bin/env p")
+ (rear-context-string)
+ (position . 1))
+("devbox"
+ (filename . "/ssh:10.10.0.247:/home/bhsu/")
+ (front-context-string . ".bash_history\n  ")
+ (rear-context-string . "50 Jun  5 22:54 ")
+ (position . 198))
+("movies.org"
+ (filename . "~/Dropbox/withwork/movies.org")
+ (front-context-string . "* eurovision\n** ")
+ (rear-context-string)
+ (position . 1))
+("email_sender.py"
+ (filename . "/sudo:root@10.10.0.247:/opt/cm/email_alert/2.0.0/bin/email_sender.py")
+ (front-context-string . "#!/usr/bin/env p")
+ (rear-context-string)
+ (position . 1))
+("alert_engine_247"
+ (filename . "/sudo:root@10.10.0.247:/opt/cm/email_alert/2.0.0/bin/email_sender.py")
+ (front-context-string . "#!/usr/bin/env p")
+ (rear-context-string)
+ (position . 1))
+("client.py"
+ (filename . "~/workspace/api/test/pytap/client.py")
+ (front-context-string)
+ (rear-context-string . "ient()\n        \n")
+ (position . 3241))
+("SearchController.groovy"
+ (filename . "~/workspace/api/grails-app/controllers/com/criticalmention/api/controllers/SearchController.groovy")
+ (front-context-string . "= searcher.searc")
+ (rear-context-string . "Results results ")
+ (position . 11224))
+("adminfe"
+ (filename . "~/workspace/allmedia_frontend/bits/admin/")
+ (front-context-string . "Admin copy.js\n  ")
+ (rear-context-string . "73 Jan 29 19:15 ")
+ (position . 254))
+("frontend_puppet"
+ (filename . "/sudo:root@10.10.1.105:/opt/puppet/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . "96 Feb 25 21:35 ")
+ (position . 190))
+("api"
+ (filename . "~/workspace/api/")
+ (front-context-string . ".classpath\n  drw")
+ (rear-context-string . "61 Feb 14 13:50 ")
+ (position . 226))
+("cm_search"
+ (filename . "~/workspace/cm_search/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . "10 Feb 18 10:52 ")
+ (position . 231))
+("Downloads"
+ (filename . "~/Downloads/")
+ (front-context-string . ".#id_dsa.pub -> ")
+ (rear-context-string . "25 Jun 18  2012 ")
+ (position . 192))
+("Transmission"
+ (filename . "~/Transmission/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "08 Feb  2 20:01 ")
+ (position . 250))
+("prog-modes.el"
+ (filename . "~/.emacs.d/prog-modes.el")
+ (front-context-string . ";(require 'go-mo")
+ (rear-context-string)
+ (position . 1))
+("benhsu-keybindings.el"
+ (filename . "~/.emacs.d/benhsu-keybindings.el")
+ (front-context-string . "(global-set-key ")
+ (rear-context-string)
+ (position . 1))
+("hosts"
+ (filename . "/etc/hosts")
+ (front-context-string . "##\n# Host Databa")
+ (rear-context-string)
+ (position . 1))
+("injectornotes"
+ (filename . "~/workspace/bhsu/injectornotes")
+ (front-context-string . "\n\n** select on t")
+ (rear-context-string . "g NO????\n** pyp8")
+ (position . 254))
+("json"
+ (filename . "/tmp/json")
+ (front-context-string . "            \"pub")
+ (rear-context-string . ": [\n          {\n")
+ (position . 3559))
+("rackspace.py"
+ (filename . "~/rackspace.py")
+ (front-context-string . "MCDCt0CLOUD\"}}}'")
+ (rear-context-string . "\", \"password\": \"")
+ (position . 1833))
+("benhsu-required.el"
+ (filename . "~/.emacs.d/benhsu-required.el")
+ (front-context-string . "\n;;; (require 'c")
+ (rear-context-string . "owse-kill-ring)\n")
+ (position . 595))
+(".emacs"
+ (filename . "~/.emacs")
+ (front-context-string . "riables was adde")
+ (rear-context-string . ";; custom-set-va")
+ (position . 14892))
+("benhsu-functions.el"
+ (filename . "~/.emacs.d/benhsu-functions.el")
+ (front-context-string)
+ (rear-context-string . "t-point 'url))))")
+ (position . 9329))
+("big.org"
+ (filename . "~/Dropbox/withwork/big.org")
+ (front-context-string . "* philly: cyprio")
+ (rear-context-string . "* expense lunch\n")
+ (position . 42))
+("(sicp) 1-1-6"
+ (front-context-string . "\n1.1.6 Condition")
+ (rear-context-string . "1-1-5,  Up: 1-1\n")
+ (position . 76651)
+ (filename . "/Users/benhsu/.emacs.d/elpa/sicp-20121012.1733/sicp")
+ (info-node . "1-1-6")
+ (handler . Info-bookmark-jump))
+("org-refile-last-stored"
+ (filename . "~/Dropbox/withwork/big.org")
+ (front-context-string . "*** animaniacs  ")
+ (rear-context-string . "        :comic:\n")
+ (position . 17919))
+("org-capture-last-stored"
+ (filename . "~/Dropbox/withwork/marty.org")
+ (front-context-string . "* <2013-02-14 Th")
+ (rear-context-string . "urse in german!\n")
+ (position . 2029))
+)

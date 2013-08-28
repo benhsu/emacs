@@ -1,0 +1,7 @@
+;; Object ucs-utils
+;; EIEIO PERSISTENT OBJECT
+(pcache-repository "ucs-utils"
+  :file "ucs-utils"
+  :entries #s(hash-table size 65 test eql rehash-size 1.5 rehash-threshold 0.8 data (ucs-utils-names-hash [object pcache-entry "pcache-entry" 1366036812.704104 7776000 #s(hash-table size 54612 test equal rehash-size 1.5 rehash-threshold 0.8 data ("VARIATION SELECTOR-256" 917999 "VARIATION SELECTOR-255" 917998 "VARIATION SELECTOR-254" 917997 "VARIATION SELECTOR-253" 917996 "VARIATION SELECTOR-252" 917995 "VARIATION SELECTOR-251" 917994 "VARIATION SELECTOR-250" 917993 "VARIATION SELECTOR-249" 917992 "VARIATION SELECTOR-248" 917991 "VARIATION SELECTOR-247" 917990 "VARIATION SELECTOR-246" 917989 "VARIATION SELECTOR-245" 917988 ...))] names-hash-emacs-version [object pcache-entry "pcache-entry" 1366036812.70403 7776000 "24.3.1"] ...))
+  :timestamp 1373323220.248867
+  )

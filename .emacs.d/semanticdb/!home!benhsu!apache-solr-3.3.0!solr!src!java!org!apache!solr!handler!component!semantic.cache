@@ -1,0 +1,330 @@
+;; Object component/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "component/"
+  :tables (list 
+   (semanticdb-table "ResponseBuilder.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("org.apache.solr.handler.component" package nil nil [805 847])
+            ("org.apache.lucene.search.Query" include nil nil [849 887])
+            ("org.apache.solr.common.SolrDocumentList" include nil nil [888 935])
+            ("org.apache.solr.common.util.NamedList" include nil nil [936 981])
+            ("org.apache.solr.common.util.RTimer" include nil nil [982 1024])
+            ("org.apache.solr.common.util.SimpleOrderedMap" include nil nil [1025 1077])
+            ("org.apache.solr.request.SolrQueryRequest" include nil nil [1078 1126])
+            ("org.apache.solr.response.SolrQueryResponse" include nil nil [1127 1177])
+            ("org.apache.solr.search.DocListAndSet" include nil nil [1178 1222])
+            ("org.apache.solr.search.QParser" include nil nil [1223 1261])
+            ("org.apache.solr.search.SortSpec" include nil nil [1262 1301])
+            ("org.apache.solr.search.SolrIndexSearcher" include nil nil [1302 1350])
+            ("java.util.List" include nil nil [1352 1374])
+            ("java.util.Map" include nil nil [1375 1396])
+            ("ResponseBuilder" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("req" variable
+                       (:typemodifiers ("public")
+                        :type "SolrQueryRequest")
+                        (reparse-symbol class_member_declaration) [1600 1628])
+                    ("rsp" variable
+                       (:typemodifiers ("public")
+                        :type "SolrQueryResponse")
+                        (reparse-symbol class_member_declaration) [1631 1660])
+                    ("doHighlights" variable
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1663 1691])
+                    ("doFacets" variable
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1694 1718])
+                    ("doStats" variable
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1721 1744])
+                    ("doTerms" variable
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1747 1770])
+                    ("needDocList" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1774 1810])
+                    ("needDocSet" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1813 1848])
+                    ("fieldFlags" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1851 1878])
+                    ("debug" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1881 1911])
+                    ("qparser" variable
+                       (:typemodifiers ("private")
+                        :type "QParser")
+                        (reparse-symbol class_member_declaration) [1915 1946])
+                    ("queryString" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1949 1983])
+                    ("query" variable
+                       (:typemodifiers ("private")
+                        :type "Query")
+                        (reparse-symbol class_member_declaration) [1986 2013])
+                    ("sortSpec" variable
+                       (:typemodifiers ("private")
+                        :type "SortSpec")
+                        (reparse-symbol class_member_declaration) [2054 2087])
+                    ("results" variable
+                       (:typemodifiers ("private")
+                        :type "DocListAndSet")
+                        (reparse-symbol class_member_declaration) [2091 2128])
+                    ("timer" variable
+                       (:typemodifiers ("private")
+                        :type "RTimer")
+                        (reparse-symbol class_member_declaration) [2177 2205])
+                    ("highlightQuery" variable
+                       (:typemodifiers ("private")
+                        :type "Query")
+                        (reparse-symbol class_member_declaration) [2209 2245])
+                    ("FIELD_SORT_VALUES" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2572 2625])
+                    ("SHARDS" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2628 2673])
+                    ("IDS" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2676 2715])
+                    ("STAGE_START" variable
+                       (:typemodifiers ("public" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3029 3073])
+                    ("STAGE_PARSE_QUERY" variable
+                       (:typemodifiers ("public" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3076 3123])
+                    ("STAGE_EXECUTE_QUERY" variable
+                       (:typemodifiers ("public" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3126 3173])
+                    ("STAGE_GET_FIELDS" variable
+                       (:typemodifiers ("public" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3176 3223])
+                    ("STAGE_DONE" variable
+                       (:typemodifiers ("public" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3226 3286])
+                    ("stage" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3290 3307])
+                    ("shards" variable
+                       (:dereference 1
+                        :typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3383 3406])
+                    ("shards_rows" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3409 3437])
+                    ("shards_start" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3440 3469])
+                    ("getShardNum" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("shard" variable (:type "String") (reparse-symbol formal_parameters) [3655 3667]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3632 3802])
+                    ("addRequest" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("me" variable (:type "SearchComponent") (reparse-symbol formal_parameters) [3829 3847])
+                            ("sreq" variable (:type "ShardRequest") (reparse-symbol formal_parameters) [3849 3866]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3806 4190])
+                    ("globalCollectionStat" variable
+                       (:typemodifiers ("public")
+                        :type "GlobalCollectionStat")
+                        (reparse-symbol class_member_declaration) [4194 4243])
+                    ("_facetInfo" variable
+                       (:typemodifiers ("public")
+                        :type "FacetComponent.FacetInfo")
+                        (reparse-symbol class_member_declaration) [4482 4525])
+                    ("_responseDocs" variable (:type "SolrDocumentList") (reparse-symbol class_member_declaration) [4598 4629])
+                    ("_statsInfo" variable (:type "StatsInfo") (reparse-symbol class_member_declaration) [4632 4653])
+                    ("_termsHelper" variable (:type "TermsComponent.TermsHelper") (reparse-symbol class_member_declaration) [4656 4696])
+                    ("addDebugInfo" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [4855 4866])
+                            ("val" variable (:type "Object") (reparse-symbol formal_parameters) [4868 4878]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4829 5006])
+                    ("isDebug" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [5167 5215])
+                    ("setDebug" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("debug" variable (:type "boolean") (reparse-symbol formal_parameters) [5240 5253]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5219 5284])
+                    ("getDebugInfo" function (:constructor-flag t) (reparse-symbol class_member_declaration) [5313 5355])
+                    ("setDebugInfo" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5359 5450])
+                    ("getFieldFlags" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [5454 5509])
+                    ("setFieldFlags" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("fieldFlags" variable (:type "int") (reparse-symbol formal_parameters) [5539 5553]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5513 5594])
+                    ("getFilters" function (:constructor-flag t) (reparse-symbol class_member_declaration) [5617 5655])
+                    ("setFilters" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5659 5736])
+                    ("getHighlightQuery" function
+                       (:typemodifiers ("public")
+                        :type "Query")
+                        (reparse-symbol class_member_declaration) [5740 5805])
+                    ("setHighlightQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("highlightQuery" variable (:type "Query") (reparse-symbol formal_parameters) [5839 5859]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5809 5908])
+                    ("isNeedDocList" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [5912 5972])
+                    ("setNeedDocList" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("needDocList" variable (:type "boolean") (reparse-symbol formal_parameters) [6003 6022]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5976 6065])
+                    ("isNeedDocSet" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [6069 6127])
+                    ("setNeedDocSet" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("needDocSet" variable (:type "boolean") (reparse-symbol formal_parameters) [6157 6175]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6131 6216])
+                    ("getQparser" function
+                       (:typemodifiers ("public")
+                        :type "QParser")
+                        (reparse-symbol class_member_declaration) [6220 6273])
+                    ("setQparser" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("qparser" variable (:type "QParser") (reparse-symbol formal_parameters) [6300 6315]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6277 6350])
+                    ("getQueryString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6354 6414])
+                    ("setQueryString" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("qstr" variable (:type "String") (reparse-symbol formal_parameters) [6445 6456]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6418 6492])
+                    ("getQuery" function
+                       (:typemodifiers ("public")
+                        :type "Query")
+                        (reparse-symbol class_member_declaration) [6496 6543])
+                    ("setQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("query" variable (:type "Query") (reparse-symbol formal_parameters) [6568 6579]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6547 6610])
+                    ("getResults" function
+                       (:typemodifiers ("public")
+                        :type "DocListAndSet")
+                        (reparse-symbol class_member_declaration) [6614 6673])
+                    ("setResults" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("results" variable (:type "DocListAndSet") (reparse-symbol formal_parameters) [6700 6721]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6677 6756])
+                    ("getSortSpec" function
+                       (:typemodifiers ("public")
+                        :type "SortSpec")
+                        (reparse-symbol class_member_declaration) [6760 6816])
+                    ("setSortSpec" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("sort" variable (:type "SortSpec") (reparse-symbol formal_parameters) [6844 6857]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6820 6890])
+                    ("getTimer" function
+                       (:typemodifiers ("public")
+                        :type "RTimer")
+                        (reparse-symbol class_member_declaration) [6894 6942])
+                    ("setTimer" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("timer" variable (:type "RTimer") (reparse-symbol formal_parameters) [6967 6979]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6946 7010])
+                    ("GlobalCollectionStat" type
+                       (:typemodifiers ("public" "static")
+                        :members 
+                          ( ("numDocs" variable
+                               (:typemodifiers ("public" "final")
+                                :type "long")
+                                (reparse-symbol class_member_declaration) [7062 7088])
+                            ("GlobalCollectionStat" function
+                               (:constructor-flag t
+                                :typemodifiers ("public")
+                                :arguments 
+                                  ( ("numDocs" variable (:type "int") (reparse-symbol formal_parameters) [7165 7176]))                                  )
+                                (reparse-symbol class_member_declaration) [7137 7266]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [7015 7270])
+                    ("getQueryCommand" function
+                       (:typemodifiers ("public")
+                        :type "SolrIndexSearcher.QueryCommand")
+                        (reparse-symbol class_member_declaration) [7392 7821])
+                    ("setResult" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("result" variable (:type "SolrIndexSearcher.QueryResult") (reparse-symbol formal_parameters) [7916 7952]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7893 8118]))                  
+                :type "class")
+                nil [1567 8120]))          
+    :file "ResponseBuilder.java"
+    :pointmax 8122
+    :fsize 8120
+    :lastmodtime '(19275 56396)
+    :unmatched-syntax '((GT 7194 . 7195) (COMMA 7188 . 7189) (IDENTIFIER 7178 . 7181) (LT 7181 . 7182) (SEMICOLON 7130 . 7131) (GT 7123 . 7124) (COMMA 7117 . 7118) (PUBLIC 7094 . 7100) (LT 7110 . 7111) (GT 5692 . 5693) (IDENTIFIER 5682 . 5686) (LT 5686 . 5687) (GT 5615 . 5616) (PUBLIC 5598 . 5604) (LT 5609 . 5610) (GT 5400 . 5401) (IDENTIFIER 5384 . 5393) (LT 5393 . 5394) (GT 5311 . 5312) (PUBLIC 5288 . 5294) (LT 5304 . 5305) (SEMICOLON 4278 . 4279) (GT 4267 . 4268) (COMMA 4257 . 4258) (IDENTIFIER 4247 . 4250) (LT 4250 . 4251) (SEMICOLON 3568 . 3569) (GT 3558 . 3559) (LT 3545 . 3546) (SEMICOLON 3506 . 3507) (GT 3496 . 3497) (PUBLIC 3472 . 3478) (LT 3483 . 3484) (SEMICOLON 2288 . 2289) (GT 2276 . 2277) (PUBLIC 2249 . 2255) (LT 2260 . 2261) (SEMICOLON 2173 . 2174) (EQ 2167 . 2168) (GT 2155 . 2156) (PRIVATE 2131 . 2138) (LT 2148 . 2149) (SEMICOLON 2050 . 2051) (EQ 2044 . 2045) (GT 2034 . 2035) (PRIVATE 2016 . 2023) (LT 2028 . 2029) (GT 7194 . 7195) (COMMA 7188 . 7189) (IDENTIFIER 7178 . 7181) (LT 7181 . 7182) (SEMICOLON 7130 . 7131) (GT 7123 . 7124) (COMMA 7117 . 7118) (PUBLIC 7094 . 7100) (LT 7110 . 7111) (GT 5692 . 5693) (IDENTIFIER 5682 . 5686) (LT 5686 . 5687) (GT 5615 . 5616) (PUBLIC 5598 . 5604) (LT 5609 . 5610) (GT 5400 . 5401) (IDENTIFIER 5384 . 5393) (LT 5393 . 5394) (GT 5311 . 5312) (PUBLIC 5288 . 5294) (LT 5304 . 5305) (SEMICOLON 4278 . 4279) (GT 4267 . 4268) (COMMA 4257 . 4258) (IDENTIFIER 4247 . 4250) (LT 4250 . 4251) (SEMICOLON 3568 . 3569) (GT 3558 . 3559) (LT 3545 . 3546) (SEMICOLON 3506 . 3507) (GT 3496 . 3497) (PUBLIC 3472 . 3478) (LT 3483 . 3484) (SEMICOLON 2288 . 2289) (GT 2276 . 2277) (PUBLIC 2249 . 2255) (LT 2260 . 2261) (SEMICOLON 2173 . 2174) (EQ 2167 . 2168) (GT 2155 . 2156) (PRIVATE 2131 . 2138) (LT 2148 . 2149) (SEMICOLON 2050 . 2051) (EQ 2044 . 2045) (GT 2034 . 2035) (PRIVATE 2016 . 2023) (LT 2028 . 2029))
+    )
+   )
+  :file "!home!benhsu!apache-solr-3.3.0!solr!src!java!org!apache!solr!handler!component!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )
