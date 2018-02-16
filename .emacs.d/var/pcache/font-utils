@@ -1,7 +1,0 @@
-;; Object font-utils
-;; EIEIO PERSISTENT OBJECT
-(pcache-repository "font-utils"
-  :file "font-utils"
-  :entries #s(hash-table size 65 test eql rehash-size 1.5 rehash-threshold 0.8 data (checksum-ns [object pcache-entry "pcache-entry" 1364853891.611408 7776000 "f1636692c95b24326f52a1973cb694ad"] font-names-ns [object pcache-entry "pcache-entry" 1364853891.613555 7776000 #s(hash-table size 835 test equal rehash-size 1.5 rehash-threshold 0.8 data ("AL BAYAN" "Al Bayan" "ALBAYAN" "Al Bayan" "AL_BAYAN" "Al Bayan" "AL-BAYAN" "Al Bayan" "AMERICAN TYPEWRITER" "American Typewriter" "AMERICANTYPEWRITER" "American Typewriter" "AMERICAN_TYPEWRITER" "American Typewriter" "AMERICAN-TYPEWRITER" "American Typewriter" "ANDALE MONO" "Andale Mono" "ANDALEMONO" "Andale Mono" "ANDALE_MONO" "Andale Mono" "ANDALE-MONO" "Andale Mono" ...))] font-utils-data-version [object pcache-entry "pcache-entry" 1364853891.613628 7776000 "0.6.8"] ...))
-  :timestamp 1373323220.247946
-  )
